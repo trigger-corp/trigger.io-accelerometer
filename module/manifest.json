@@ -1,7 +1,8 @@
 {
     "changes": "* Initial version", 
     "description": "APIs to access accelerometer data.\n\nThe accelerometer allows you to listen for accelerometer events and set the interval at which you would like to receive events.", 
-    "name": "accelerometer", 
+    "min_platform_version": "v2.1.0", 
+    "namespace": "accelerometer", 
     "platform_version": "v2.1.0", 
     "version": "2.0"
 }
