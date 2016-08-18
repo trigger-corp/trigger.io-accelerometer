@@ -3,6 +3,12 @@
 
 The ``forge.accelerometer`` namespace allows you to access hardware accelerometer data.
 
+## Config options
+
+usage_description
+:   This key lets you describe the reason your app accesses the device's accelerometer. When the system prompts the user to allow access, this string is displayed as part of the alert.
+
+
 ##API
 
 !method: forge.accelerometer.setWatchInterval(interval, success, error)
@@ -26,11 +32,11 @@ The ``forge.accelerometer`` namespace allows you to access hardware acceleromete
 
 ##Example
 
-    // Alert the user the first time they put their device on a flat surface
-    forge.accelerometer.onChange.addListener(function (data) {
-      if (data.z > 9 && data.z < 11) {
-        forge.accelerometer.clearWatchInterval();
-        alert("Phone is flat");
-      }
-    });
-    forge.accelerometer.setWatchInterval(1);
+	// Alert the user the first time they put their device on a flat surface
+	forge.accelerometer.onChange.addListener(function (data) {
+	  if (data.z > 9 && data.z < 11) {
+		forge.accelerometer.clearWatchInterval();
+		alert("Phone is flat");
+	  }
+	});
+	forge.accelerometer.setWatchInterval(1);

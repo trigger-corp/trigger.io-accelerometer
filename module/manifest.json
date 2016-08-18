@@ -1,8 +1,8 @@
 {
-    "changes": "* Support arm64 devices running iOS 8", 
-    "description": "APIs to access accelerometer data.\n\nThe accelerometer allows you to listen for accelerometer events and set the interval at which you would like to receive events.", 
-    "min_platform_version": "v2.1.0", 
-    "namespace": "accelerometer", 
-    "platform_version": "v2.2.0", 
-    "version": "2.1"
+	"changes": "* New mandatory configuration field `usage_description` to describe the reason your app acceses the accelerometer on iOS 10 devices.",
+	"description": "APIs to access accelerometer data.\n\nThe accelerometer allows you to listen for accelerometer events and set the interval at which you would like to receive events.",
+	"min_platform_version": "v2.4.5",
+	"namespace": "accelerometer",
+	"platform_version": "v2.4.5",
+	"version": "2.2"
 }

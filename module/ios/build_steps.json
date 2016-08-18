@@ -1,0 +1,6 @@
+[
+	{ "do": { "set_in_info_plist": {
+		"key": "NSMotionUsageDescription",
+		"value": "{{modules.accelerometer.config.usage_description}}"
+	} } }
+]
